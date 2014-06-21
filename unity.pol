@@ -26,7 +26,7 @@ POL_Call POL_Install_physx
 POL_Call POL_Install_corefonts
 POL_Call POL_Install_msxml6
 POL_Call POL_Install_wininet
-POL_Call POL_Install_ie6
+POL_Call POL_Install_ie8
 
 #Setting OS wer
 Set_OS  "winxp"
@@ -48,7 +48,7 @@ POL_Wine regedit $regfile
 #rm $regfile
 
 POL_SetupWindow_browse "Please select the location of the Unity3D setup executable" "Unity Setup Executable"
-     
+
 UNITYLOC=$APP_ANSWER
 POL_Wine $UNITYLOC
 
