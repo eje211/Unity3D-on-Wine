@@ -53,8 +53,8 @@ POL_Call POL_Install_ie8
 Set_OS  "winxp" "sp3"
 
 #Setting mono forcing in MonoDevelop
-POL_Wine_OverrideDLL “native, builtin” “mscore”
-POL_Wine_OverrideDLL “builtin, native” “dnsapi”
+POL_Wine_OverrideDLL "native, builtin" "mscore"
+POL_Wine_OverrideDLL "builtin, native" "dnsapi"
 POL_Wine_OverrideDLL "" "mscorsvw.exe"
 
 mkdir -p $WINEPREFIX/drive_c/users/$USER/AppData/LocalLow
